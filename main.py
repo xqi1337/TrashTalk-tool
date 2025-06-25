@@ -3,12 +3,12 @@ Terminal UI application for displaying random text from a file.
 
 Author: xqi
 """
-
+import colorama
 import shutil
 import sys
 import os
+
 from random import randint
-import colorama
 from typing import Dict, List
 
 # Initialize colorama
